@@ -20,7 +20,6 @@
 
 
 ### Anti-UAV Dataset
-<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.mp4" width="1000px"/>
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.png" width="1000px"/>
 
 
