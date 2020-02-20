@@ -62,3 +62,27 @@ The project of anti-UAV is released under the MIT License.
 - We define the tracking accuracy as:
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="1000px"/>
 The IoU_i is Intersection over Union (IoU) between each corresponding ground truth and tracking boxes and the v are the visibility flags of the ground truth (the tracker's predicted p are used to measure the state accuracy). The accuracy is averaged over all frames.
+
+
+- Note: We provide both RGB and NIR videos and their corresponding ground-truths. Challenge participants are only allowed to use RGB and/or NIR videos and **their location in the very first frame**. The final evaluation ranks are calculated according to the results on the NIR data.
+
+
+- Test
+    - Set up the environment
+        ```shell
+            conda create -n anti_uav python=3.7
+            conda activate anti_uav
+            pip install opencv-python torch
+        ```
+    - Run
+        ```shell
+            python test.py
+        ```
+    - You will see the following results:
+        ```shell
+            [001/100]  20190925_131530_1_4    IR Fixed Measure: 0.187
+            [002/100]  20190926_183400_1_8    IR Fixed Measure: 0.788
+            ...
+            [100/100]  20190925_213001_1_2    IR Fixed Measure: 0.028
+            [Overall]    IR Mixed Measure: 0.420
+        ``` 
