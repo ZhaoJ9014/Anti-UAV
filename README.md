@@ -41,6 +41,7 @@ The project of anti-UAV is released under the MIT License.
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.gif" width="1000px"/>
 <div align="center">
   <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/2.gif" width="500px"/>
+  <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.gif" width="500px"/>
   <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.png" width="800px"/>
 </div>
 
