@@ -64,7 +64,7 @@ The project of anti-UAV is released under the MIT License.
 The IoU_i is Intersection over Union (IoU) between each corresponding ground truth and tracking boxes and the v are the visibility flags of the ground truth (the tracker's predicted p are used to measure the state accuracy). The accuracy is averaged over all frames.
 
 
-- Note: We provide both RGB and NIR videos and their corresponding ground-truths. Challenge participants are only allowed to use RGB and/or NIR videos and **their location in the very first frame**. The final evaluation ranks are calculated according to the results on the NIR data.
+- Note: We provide both RGB and NIR videos and their corresponding ground-truths. Challenge participants are only allowed to use RGB and/or NIR videos and **their locations in the very first frame**. The final evaluation ranks are calculated according to the results on the NIR data.
 
 
 - Test
