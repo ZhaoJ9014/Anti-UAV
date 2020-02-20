@@ -54,4 +54,4 @@ The project of anti-UAV is released under the MIT License.
 
 ## Evaluation Metrics
 - We define the tracking accuracy as:
-<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="500px"/>
+<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="800px"/>
