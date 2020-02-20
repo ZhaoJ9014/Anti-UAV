@@ -95,7 +95,7 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 - We will organise the CVPR 2020 [Anti-UAV](https://anti-uav.github.io/) Workshop & Challenge, which is collaborated by INEE, CASIA, TJU, XJTU, Pensees, Xpeng Motors, USTC, NUS, and Baidu.
 
 
-- [Result Submission & Leaderboard](https://anti-uav.github.io/). 
+- [Result Submission & Leaderboard](https://anti-uav.github.io/).  
 
 ****
 
