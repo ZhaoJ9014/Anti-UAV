@@ -47,7 +47,7 @@ The project of anti-UAV is released under the MIT License.
 </div>
 
 
-- Statistics: The anti-UAV dataset consists of 160 high quality, full HD video sequences (both RGB and NIR), spanning multiple occurrences of multi-scale UAVs (3 sizes, *i.e.*,  big, normal, tiny; 4 models, *i.e.*, DJI-Inspire, DJI-Phantom4, DJI-MarvicAir, DJI-MarvicPRO). The RGB and NIR videos are captured by static special ground camera with an automatic rotation platform which can be remotely controlled by PC. All data are densely annotated with bounding boxes, attributes (big, normal, tiny, day, night, cloud, building, false object, speed change, hang, occlusion, scale variation), and flags indicating whether the target exists or not in each frame by professional data annotators. 
+- Statistics: The anti-UAV dataset consists of 160 high quality, full HD video sequences (both RGB and NIR), spanning multiple occurrences of multi-scale UAVs (3 sizes, *i.e.*, large, normal, tiny; 4 models, *i.e.*, DJI-Inspire, DJI-Phantom4, DJI-MarvicAir, DJI-MarvicPRO). The RGB and NIR videos are captured by static special ground camera with an automatic rotation platform which can be remotely controlled by PC. All data are densely annotated with bounding boxes, attributes (large, normal, tiny, day, night, cloud, building, false object, speed change, hang, occlusion, scale variation), and flags indicating whether the target exists or not in each frame by professional data annotators. 
 <div align="center">
   <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/2.png" width="500px"/>
 </div>
