@@ -1,8 +1,6 @@
 """
-baseline for 1st Anti-UAV
+baseline for Anti-UAV
 https://anti-uav.github.io/
-Qiang Wang
-2020.02.16
 """
 from __future__ import absolute_import
 import os
