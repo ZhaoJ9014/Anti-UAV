@@ -78,7 +78,7 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
         ```shell
             python test.py
         ```
-    - You will see the following results:
+    - You will see the following results
         ```shell
             [001/100]  20190925_131530_1_4    IR Fixed Measure: 0.187
             [002/100]  20190926_183400_1_8    IR Fixed Measure: 0.788
@@ -86,3 +86,19 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
             [100/100]  20190925_213001_1_2    IR Fixed Measure: 0.028
             [Overall]    IR Mixed Measure: 0.420
         ``` 
+
+****
+
+
+## CVPR 2020 Anti-UAV Workshop & Challenge
+- We will organise the CVPR 2020 [Anti-UAV](https://anti-uav.github.io/) Workshop & Challenge, which is collaborated by INEE, CASIA, TJU, XJTU, Pensees, Xpeng Motors, USTC, NUS, and Baidu.
+
+
+- [Result Submission & Leaderboard](https://anti-uav.github.io/).
+
+****
+
+
+## Citation
+- Please consult and consider citing the following papers: 
+    TO-BE-RELEASED
