@@ -54,4 +54,5 @@ The project of anti-UAV is released under the MIT License.
 
 ## Evaluation Metrics
 - We define the tracking accuracy as:
-<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="800px"/>
+<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="1000px"/>
+The IoU_i is Intersection over Union (IoU) between each corresponding ground truth and tracking boxes and the v are the visibility flags of the ground truth (the tracker's predicted p are used to measure the state accuracy). The accuracy is averaged over all frames.
