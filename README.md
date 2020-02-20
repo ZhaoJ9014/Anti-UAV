@@ -39,9 +39,10 @@ The project of anti-UAV is released under the MIT License.
 
 ## Anti-UAV Dataset
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.gif" width="1000px"/>
+<center class="half">
+    <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/2.gif" width="500"/><img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.gif" width="500"/>
+</center>
 <div align="center">
-  <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/2.gif" width="500px"/>
-  <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.gif" width="500px"/>
   <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.png" width="800px"/>
 </div>
 
