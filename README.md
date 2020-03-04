@@ -101,7 +101,10 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 - [WeChat News1](https://mp.weixin.qq.com/s/SRCf_5L_mzPvV2M9kipUig).
 
 
-- [WeChat News2](https://mp.weixin.qq.com/s/DwJ8Y4ZIGhgJdowUkl5MiQ).
+- [WeChat News2](https://blog.csdn.net/m0_46422918/article/details/104551706).
+
+
+- [WeChat News3](https://mp.weixin.qq.com/s/DwJ8Y4ZIGhgJdowUkl5MiQ).
 
 ****
 
