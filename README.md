@@ -86,6 +86,14 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
             [100/100]  20190925_213001_1_2    IR Fixed Measure: 0.028
             [Overall]    IR Mixed Measure: 0.420
         ``` 
+        
+
+- Submit Result to codalab
+    ```shell
+        cd result/SiamFC
+        zip -r ../SiamFC_test_dev.zip *.txt
+    ``` 
+    You can upload the SiamFC_test_dev.zip file to [CodaLab](https://competitions.codalab.org/competitions/23887).
 
 ****
 
