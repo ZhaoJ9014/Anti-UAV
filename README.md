@@ -55,7 +55,7 @@ The project of anti-UAV is released under the MIT License.
 
 - Download: The anti-UAV dataset is available at [google drive](https://drive.google.com/open?id=1GICr5e9CZN0tcFM_VXhyogzxWD3LMvAw) and [baidu drive](https://pan.baidu.com/s/1dJR0VKyLyiXBNB_qfa2ZrA) (password: sagx).
 
-- Please refer to our [Anti-UAV paper](https://arxiv.org/pdf/2101.08466.pdf)) for more details.
+- Please refer to our [Anti-UAV paper](https://arxiv.org/pdf/2101.08466.pdf) for more details.
 
 ****
 
