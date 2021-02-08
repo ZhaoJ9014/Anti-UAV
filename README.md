@@ -119,6 +119,13 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 ****
 
 
-## Citation
-- Please consult and consider citing the following papers: 
-    TO-BE-RELEASED
+### Citation
+- Please consult and consider citing the following papers:
+
+
+      @article{jiang2021anti,
+      title={Anti-UAV: A Large Multi-Modal Benchmark for UAV Tracking},
+      author={Jiang, Nan and Wang, Kuiran and Peng, Xiaoke and Yu, Xuehui and Wang, Qiang and Xing, Junliang and Li, Guorong and Guo, Guodong and Zhao, Jian and Han, Zhenjun},
+      journal={arXiv preprint arXiv:2101.08466},
+      year={2021}
+      }
