@@ -121,6 +121,7 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 
 
 ## ICCV 2021 Anti-UAV Workshop & Challenge
+<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/ICCV21.png" width="1000px"/>
 - We will organise the ICCV 2021 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
 
 
@@ -128,7 +129,7 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 
 
 - [WeChat News](https://mp.weixin.qq.com/s/SRCf_5L_mzPvV2M9kipUig).
-- 
+
 ****
 
 
