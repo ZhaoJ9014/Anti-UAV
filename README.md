@@ -128,7 +128,19 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 - [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
 
 
-- [WeChat News](https://mp.weixin.qq.com/s/SRCf_5L_mzPvV2M9kipUig).
+- [WeChat News1](https://mp.weixin.qq.com/s/SRCf_5L_mzPvV2M9kipUig).
+
+
+- [WeChat News2](https://mp.weixin.qq.com/s/_TQjWGlv5w8EhPgYEZRnnQ).
+
+
+- [WeChat News3](https://mp.weixin.qq.com/s/ySBtc9pDJBtOcdo12qMXOw).
+
+
+- [WeChat News4](https://mp.weixin.qq.com/s/3eA8isQ6axgta7bmPgAxZg).
+
+
+- [WeChat News5](https://mp.weixin.qq.com/s/mQnkEqUvg996oSIfvuQXIA).
 
 ****
 
