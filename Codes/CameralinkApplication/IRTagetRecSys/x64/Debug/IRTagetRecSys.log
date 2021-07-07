@@ -1,0 +1,30 @@
+﻿生成启动时间为 2020/6/24 17:39:25。
+     1>项目“C:\Users\uavproject\Desktop\IRTagetRecSys20200624\IRTagetRecSys\IRTagetRecSys.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Debug\IRTagetRecSys.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt DetectTrack.cpp Dib.cpp IRTagetRecSys.cpp IRTagetRecSysDoc.cpp IRTagetRecSysView.cpp MainFrm.cpp stdafx.cpp TrackCtrlDlg.cpp TrackWnd.cpp
+         DetectTrack.cpp
+     1>c:\users\uavproject\anaconda3\lib\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(12): warning Msg: Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+         Dib.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         IRTagetRecSys.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         IRTagetRecSysDoc.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         IRTagetRecSysView.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MainFrm.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         stdafx.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         TrackCtrlDlg.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         TrackWnd.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         Generating Code...
+     1>已完成生成项目“C:\Users\uavproject\Desktop\IRTagetRecSys20200624\IRTagetRecSys\IRTagetRecSys.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.06
