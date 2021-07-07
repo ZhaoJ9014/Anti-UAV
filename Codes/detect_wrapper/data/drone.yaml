@@ -1,0 +1,9 @@
+
+train: './drone_data/images/'  # 128 images
+#val: './detect_wrapper/drone_data/images/val'  # 128 images
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'drone' ]
