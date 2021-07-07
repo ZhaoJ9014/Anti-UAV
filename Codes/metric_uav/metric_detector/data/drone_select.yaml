@@ -1,0 +1,9 @@
+
+# train: drone_testdata/images/  # 128 images
+val: /home/dell/metric_uav/metric_detector/drone_select/images/val/  # 128 images
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'drone' ]
