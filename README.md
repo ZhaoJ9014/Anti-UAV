@@ -154,6 +154,15 @@ The IoU_i is Intersection over Union (IoU) between each corresponding ground tru
 ****
 
 
+****
+### Donation 
+:moneybag:
+
+* Your donation is highly welcomed to help us further develop the anti-UAV project to better facilitate more cutting-edge researches and applications on UAV searching, detection, tracking and recognition under complex scenes. The donation QR code via Wechat is as below. Appreciate it very much:heart:
+ 
+  <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/disp/Donation.jpeg" width="200px"/>
+
+
 ### Citation
 - Please consult and consider citing the following papers:
 
