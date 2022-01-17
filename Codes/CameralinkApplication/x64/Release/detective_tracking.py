@@ -114,6 +114,7 @@ def send_coord(coord):
         nAimW = coord[2]
         nAimH = coord[3]
         data = struct.pack("iiiiiiii", msgCode, nAimType, nAimX, nAimY, nAimW, nAimH,nTrackType,nState)
+        # pdb.set_trace()
         udp_socket.sendto(data, address)
         safe_log("send successfully")
      
@@ -129,7 +130,7 @@ def global_init():
             g_logger.addHandler(fh)
         g_detector = DroneDetection()
         g_tracker = Tracker()
-        g_tracker.warmup()
+        # g_tracker.warmup()
         g_init = True
     safe_log("global init done")
 
@@ -146,7 +147,7 @@ def imgproc(data):
     if len(frame.shape) == 2 :
         IMG_TYPE = 1
         frame = mono_to_rgb(frame)
-
+    # pdb.set_trace()
     if g_detector and g_tracker:
         #print("1")
         if g_frame_counter <= 0:
@@ -191,6 +192,7 @@ def imgproc(data):
                         send_coord(init_box)
                     elif IMG_TYPE == 0 and count % 2 == 1:
                         init_box = scale_coords([640,384], init_box, [1920,1080])
+                        print("I send_coord!!")
                         send_coord(init_box)
                     print("detection")
                 else:
@@ -200,9 +202,11 @@ def imgproc(data):
                     g_frame_counter -= 1
                     send_bbs('get!--{}'.format(bbx))
                     if IMG_TYPE ==1 and count % 2 == 1: 
+                        print("I send_coord!!")
                         send_coord(bbx)
                     elif IMG_TYPE == 0 and count % 2 == 1:
                         bbx = scale_coords([640,384], bbx, [1920,1080])
+                        print("I send_coord!!")
                         send_coord(bbx)
                 
         else:
@@ -230,9 +234,12 @@ def getUDPSocket(IpAddr, Port):
 def udpRecv(server, frameSize):
     global g_data
     img_recv_final = None
+    # pdb.set_trace()
     g_data, addr = server.recvfrom(256) #shoud be b'I BEGIN'
+    
     #safe_log(str(data)+" from "+str(addr))
     if g_data == b'I BEGIN':
+        print("I BEGIN!!")
         server.sendto(b'sucess', addr)
         data, addr = server.recvfrom(16) #should be the img size that should be sent
         server.sendto(b'sucess', addr)
@@ -275,7 +282,7 @@ if __name__== "__main__":
             count = 0
             detect_first=True
             repeat_detect =True
-            g_tracker.warmup()
+            # g_tracker.warmup()
             print("Start!!")
 
         #print(data)
