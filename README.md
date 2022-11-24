@@ -54,7 +54,7 @@ The project of anti-UAV is released under the MIT License.
 
 - [WeChat News](https://zhaoj9014.github.io/pub/Anti-UAV.pdf). 
 
-- Download: The anti-UAV dataset is available at [google drive](https://drive.google.com/open?id=1GICr5e9CZN0tcFM_VXhyogzxWD3LMvAw) (v1) and [baidu drive](https://pan.baidu.com/s/1dJR0VKyLyiXBNB_qfa2ZrA) (password: sagx) (v1) / [baidu drive]([https://pan.baidu.com/s/1dJR0VKyLyiXBNB_qfa2ZrA](https://pan.baidu.com/s/11h00QRYhwEa26dyT2vzrkw)) (password: 9car) (v2).
+- Download: The anti-UAV dataset is available at [google drive](https://drive.google.com/open?id=1GICr5e9CZN0tcFM_VXhyogzxWD3LMvAw) (v1) and [baidu drive](https://pan.baidu.com/s/1dJR0VKyLyiXBNB_qfa2ZrA) (password: sagx) (v1) / [baidu drive](https://pan.baidu.com/s/1PbINXhxc-722NWoO8P2AdQ) (password: wfds) (v2).
 
 - Please refer to our [Anti-UAV paper](https://arxiv.org/pdf/2101.08466.pdf) for more details.
 
