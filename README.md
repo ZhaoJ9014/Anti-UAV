@@ -52,7 +52,7 @@ The project of anti-UAV is released under the MIT License.
 
 - Folder Tree Diagram
 <div align="left">
-  <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/folder-tree.png" width="500px"/>
+  <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/folder-tree.png" width="300px"/>
 </div>
 
 
