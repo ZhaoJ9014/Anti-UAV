@@ -133,7 +133,7 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 - [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
 
 
-- [WeChat News1]([https://mp.weixin.qq.com/s/SRCf_5L_mzPvV2M9kipUig](https://mp.weixin.qq.com/s/BuK9Lba4taFgEprlbzhAnA).
+- [WeChat News1](https://mp.weixin.qq.com/s/BuK9Lba4taFgEprlbzhAnA).
 
 
 ### Citation
