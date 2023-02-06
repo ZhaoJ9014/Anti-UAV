@@ -126,7 +126,7 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 
 
 ## CVPR 20213 Anti-UAV Workshop & Challenge
-<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/ICCV21.png" width="1000px"/>
+<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/CVPR23.png" width="1000px"/>
 - We will organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
 
 
