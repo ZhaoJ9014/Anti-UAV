@@ -47,6 +47,9 @@ The project of anti-UAV is released under the MIT License.
 </div>
 
 
+- There are three subsets in the dataset, i.e., the train subset, the test subset for track 1 and the test subset for track 2. The train subset consists of 200 thermal infrared video sequences and publishes detailed annotation files (whether the target exists, target location information and various challenges). The subset for track 1 also contains 200 video sequences, only providing the position information of target in the first frame; The subset for track 2 contains 200 video sequences. This track does not provide any labeled information. It requires participants to obtain the flag of existence and corresponding target location information of the target through detection and tracking. Above three subsets do not have any overlap between each other. We propose participants could train a suitable detector or tracker model depending on multiple categories of label information in train subset.
+
+
 - Statistics: The anti-UAV dataset consists of 160 high quality, full HD video sequences (both RGB and IR), spanning multiple occurrences of multi-scale UAVs (3 sizes, *i.e.*, large, normal, tiny; 4 models, *i.e.*, DJI-Inspire, DJI-Phantom4, DJI-MarvicAir, DJI-MarvicPRO). The RGB and IR videos are captured by static special ground camera with an automatic rotation platform which can be remotely controlled by PC. All data are densely annotated with bounding boxes, attributes (large, normal, tiny, day, night, cloud, building, false object, speed change, hang, occlusion, scale variation), and flags indicating whether the target exists or not in each frame by professional data annotators. 
 <div align="center">
   <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/2.png" width="500px"/>
