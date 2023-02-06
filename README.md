@@ -141,8 +141,16 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 
 
       @article{jiang2021anti,
-      title={Anti-UAV: A Large Multi-Modal Benchmark for UAV Tracking},
-      author={Jiang, Nan and Wang, Kuiran and Peng, Xiaoke and Yu, Xuehui and Wang, Qiang and Xing, Junliang and Li, Guorong and Guo, Guodong and Zhao, Jian and Han, Zhenjun},
-      journal={arXiv preprint arXiv:2101.08466},
+      title={Anti-UAV: a large-scale benchmark for vision-based UAV tracking},
+      author={Jiang, Nan and Wang, Kuiran and Peng, Xiaoke and Yu, Xuehui and Wang, Qiang and Xing, Junliang and Li, Guorong and Ye, Qixiang and Jiao,           Jianbin and Han, Zhenjun and others},
+      journal={T-MM},
+      year={2021}
+      }
+      
+      
+      @article{zhao20212nd,
+      title={The 2nd anti-UAV workshop \& challenge: methods and results},
+      author={Zhao, Jian and Wang, Gang and Li, Jianan and Jin, Lei and Fan, Nana and Wang, Min and Wang, Xiaojuan and Yong, Ting and Deng, Yafeng and           Guo, Yandong and others},
+      journal={arXiv preprint arXiv:2108.09909},
       year={2021}
       }
