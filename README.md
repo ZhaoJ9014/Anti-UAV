@@ -57,7 +57,7 @@ The project of anti-UAV is released under the MIT License.
 
 
 - Scenario Variations: Compared to the previous challenge, we further enlarge the dataset this year by adding more challenging video sequences with dynamic backgrounds, complex movements, and tiny-scale targets, such that the resulting new dataset covers a greater variety of scenarios with multi-scale UAVs. Examples are shown as follows.
-<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/scene.gif" width="1000px"/>
+<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/example.gif" width="1000px"/>
 
 
 - Statistics: The anti-UAV dataset consists of 160 high quality, full HD video sequences (both RGB and IR), spanning multiple occurrences of multi-scale UAVs (3 sizes, *i.e.*, large, normal, tiny; 4 models, *i.e.*, DJI-Inspire, DJI-Phantom4, DJI-MarvicAir, DJI-MarvicPRO). The RGB and IR videos are captured by static special ground camera with an automatic rotation platform which can be remotely controlled by PC. All data are densely annotated with bounding boxes, attributes (large, normal, tiny, day, night, cloud, building, false object, speed change, hang, occlusion, scale variation), and flags indicating whether the target exists or not in each frame by professional data annotators. 
