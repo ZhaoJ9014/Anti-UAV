@@ -69,7 +69,7 @@ The project of anti-UAV is released under the MIT License.
 ## Evaluation Metrics
 - We define the tracking accuracy as:
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="1000px"/>
-The IoU_i is Intersection over Union (IoU) between each corresponding ground truth and tracking boxes and the v are the visibility flags of the ground truth (the tracker's predicted p are used to measure the state accuracy). The accuracy is averaged over all frames.
+For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracking box and its corresponding ground-truth box, p_t is the predicted visibility flag, it equals 1 when the predicted box is empty and 0 otherwise. The v_t is the ground-truth visibility flag of the target, the indicator function δ(v_t>0) equals 1 when v_t > 0 and 0 otherwise. The accuracy is averaged over all frames in a sequence, T indicates total frames and T^* denotes the number of frames corresponding to the presence of the target in the ground-truth.
 
 
 - Note: We provide both RGB and IR videos and their corresponding ground-truths. Challenge participants can only use both IR and RGB videos and their ground-truth location in the first frame. The final evaluation ranks are calculated according to the results on the IR data.
