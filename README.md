@@ -136,6 +136,15 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 - [WeChat News1](https://mp.weixin.qq.com/s/BuK9Lba4taFgEprlbzhAnA).
 
 
+- [WeChat News2](https://mp.weixin.qq.com/s/YILT9CWKXg5dVuj-ZqVJJg).
+
+
+- [ModelScope News](https://community.modelscope.cn/63e0d79d406cc115977189e5.html).
+
+
+- [CSDN News](https://blog.csdn.net/sunbaigui/article/details/128900807).
+
+
 ### Citation
 - Please consult and consider citing the following papers:
 
