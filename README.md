@@ -158,8 +158,16 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
       
       
       @article{zhao20212nd,
-      title={The 2nd anti-UAV workshop & challenge: methods and results},
+      title={The 2nd anti-UAV workshop \& challenge: methods and results},
       author={Zhao, Jian and Wang, Gang and Li, Jianan and Jin, Lei and Fan, Nana and Wang, Min and Wang, Xiaojuan and Yong, Ting and Deng, Yafeng and           Guo, Yandong and others},
       journal={arXiv preprint arXiv:2108.09909},
       year={2021}
+      }
+
+
+      @article{zhao20233rd,
+      title={The 3rd Anti-UAV Workshop \& Challenge: Methods and Results},
+      author={Zhao, Jian and Li, Jianan and Jin, Lei and Chu, Jiaming and Zhang, Zhihao and Wang, Jun and Xia, Jiangqiang and Wang, Kai and Liu, Yang and Gulshad, Sadaf and others},
+      journal={arXiv preprint arXiv:2305.07290},
+      year={2023}
       }
