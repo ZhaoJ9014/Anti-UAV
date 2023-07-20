@@ -59,9 +59,9 @@ The project of anti-UAV is released under the MIT License.
 - Scenario Variations: Compared to the previous challenge, we further enlarge the dataset this year by adding more challenging video sequences with dynamic backgrounds, complex movements, and tiny-scale targets, such that the resulting new dataset covers a greater variety of scenarios with multi-scale UAVs. Examples are shown as follows.
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/example.gif" width="1000px"/>
 
-- Download: The anti-UAV dataset is available at [google drive](https://drive.google.com/open?id=1GICr5e9CZN0tcFM_VXhyogzxWD3LMvAw) (v1) and [baidu drive](https://pan.baidu.com/s/1dJR0VKyLyiXBNB_qfa2ZrA) (password: sagx) (v1) / [baidu drive](https://pan.baidu.com/s/1PbINXhxc-722NWoO8P2AdQ) (password: wfds) (v2).
+- Download: The anti-UAV dataset is available at [google drive](https://drive.google.com/open?id=1GICr5e9CZN0tcFM_VXhyogzxWD3LMvAw) (v1) and [baidu drive](https://pan.baidu.com/s/1dJR0VKyLyiXBNB_qfa2ZrA) (password: sagx) (v1) / [baidu drive](https://pan.baidu.com/s/1PbINXhxc-722NWoO8P2AdQ) (password: wfds) (v2) / [baidu drive](https://pan.baidu.com/s/1yQBpirMG9k7vNkh9hWUSqg?pwd=znff) (password: znff) (v3).
 
-- Please refer to our [Anti-UAV paper](https://arxiv.org/pdf/2101.08466.pdf) for more details ([WeChat News](https://zhaoj9014.github.io/pub/Anti-UAV.pdf)).
+- Please refer to our [Anti-UAV v1 paper](https://ieeexplore.ieee.org/document/9615243) and [Anti-UAV v3 paper](https://arxiv.org/pdf/2306.15767.pdf) for more details ([WeChat News](https://zhaoj9014.github.io/pub/Anti-UAV.pdf)).
 
 ****
 
@@ -162,6 +162,22 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
       author={Zhao, Jian and Wang, Gang and Li, Jianan and Jin, Lei and Fan, Nana and Wang, Min and Wang, Xiaojuan and Yong, Ting and Deng, Yafeng and           Guo, Yandong and others},
       journal={arXiv preprint arXiv:2108.09909},
       year={2021}
+      }
+
+
+      @article{zhu2023evidential,
+      title={Evidential Detection and Tracking Collaboration: New Problem, Benchmark and Algorithm for Robust Anti-UAV System},
+      author={Zhu, Xue-Feng and Xu, Tianyang and Zhao, Jian and Liu, Jia-Wei and Wang, Kai and Wang, Gang and Li, Jianan and Zhang, Zhihao and Wang, Qiang and Jin, Lei and     others},
+      journal={arXiv preprint arXiv:2306.15767},
+      year={2023}
+      }
+
+
+      @article{zhao20233rd,
+      title={The 3rd Anti-UAV Workshop \& Challenge: Methods and Results},
+      author={Zhao, Jian and Li, Jianan and Jin, Lei and Chu, Jiaming and Zhang, Zhihao and Wang, Jun and Xia, Jiangqiang and Wang, Kai and Liu, Yang and Gulshad, Sadaf and others},
+      journal={arXiv preprint arXiv:2305.07290},
+      year={2023}
       }
 
 
