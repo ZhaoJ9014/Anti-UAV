@@ -157,6 +157,14 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
       }
 
 
+      @inproceedings{zhang2023modality,
+      title={Modality Meets Long-Term Tracker: A Siamese Dual Fusion Framework for Tracking UAV},
+      author={Zhang, Zhihao and Jin, Lei and Li, Shengjie and Xia, JianQiang and Wang, Jun and Li, Zun and Zhu, Zheng and Yang, Wenhan and Zhang, PengFei and Zhao, Jian and others},
+      booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
+      year={2023}
+      }
+
+
       @article{jiang2021anti,
       title={Anti-UAV: a large-scale benchmark for vision-based UAV tracking},
       author={Jiang, Nan and Wang, Kuiran and Peng, Xiaoke and Yu, Xuehui and Wang, Qiang and Xing, Junliang and Li, Guorong and Ye, Qixiang and Jiao,           Jianbin and Han, Zhenjun and others},
