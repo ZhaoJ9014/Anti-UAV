@@ -149,6 +149,14 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 - Please consult and consider citing the following papers:
 
 
+      @article{huang2023anti,
+      title={Anti-UAV410: A Thermal Infrared Benchmark and Customized Scheme for Tracking Drones in the Wild},
+      author={Huang, Bo and Li, Jianan and Chen, Junjie and Wang, Gang and Zhao, Jian and Xu, Tingfa},
+      journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+      year={2023}
+      }
+
+
       @article{jiang2021anti,
       title={Anti-UAV: a large-scale benchmark for vision-based UAV tracking},
       author={Jiang, Nan and Wang, Kuiran and Peng, Xiaoke and Yu, Xuehui and Wang, Qiang and Xing, Junliang and Li, Guorong and Ye, Qixiang and Jiao,           Jianbin and Han, Zhenjun and others},
