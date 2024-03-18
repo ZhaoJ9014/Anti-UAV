@@ -149,6 +149,14 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 - Please consult and consider citing the following papers:
 
 
+      @article{zhang2023review,
+      title={Review and Analysis of RGBT Single Object Tracking Methods: A Fusion Perspective},
+      author={Zhang, ZhiHao and Wang, Jun and Zang, Zhuli and Jin, Lei and Li, Shengjie and Wu, Hao and Zhao, Jian and Bo, Zhang},
+      journal={T-OMM},
+      year={2023}
+      }
+
+
       @article{huang2023anti,
       title={Anti-UAV410: A Thermal Infrared Benchmark and Customized Scheme for Tracking Drones in the Wild},
       author={Huang, Bo and Li, Jianan and Chen, Junjie and Wang, Gang and Zhao, Jian and Xu, Tingfa},
