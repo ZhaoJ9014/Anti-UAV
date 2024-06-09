@@ -105,6 +105,7 @@ Please note that 410 and 600 versions only contain IR videos while 300 version c
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="1000px"/>
 For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracking box and its corresponding ground-truth box, p_t is the predicted visibility flag, it equals 1 when the predicted box is empty and 0 otherwise. The v_t is the ground-truth visibility flag of the target, the indicator function δ(v_t>0) equals 1 when v_t > 0 and 0 otherwise. The accuracy is averaged over all frames in a sequence, T indicates total frames and T^* denotes the number of frames corresponding to the presence of the target in the ground-truth.
 
+****
 ## Training and Inference
 * Training
 
@@ -121,6 +122,7 @@ Also, if you have any suggestions on how to do it, feel free to open an issue!
 In the root path of the project, run the command
 `python pysot_toolkit/test.py`
 
+****
 ## Model Zoo
 
 :monkey:
@@ -128,7 +130,7 @@ In the root path of the project, run the command
 Keep updating...
 
 
-
+****
 ## FAQs
 
 * We will keep updating this section, so feel free to open an issue.
@@ -138,9 +140,10 @@ Keep updating...
 A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 
 
-
+****
 ## Achievement
 
+****
 - CVPR 2020 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/4.png" width="1000px"/>
 * We have organized the CVPR 2020 Anti-UAV Workshop & Challenge, which is collaborated by INEE, CASIA, TJU, XJTU, Pensees, Xpeng Motors, USTC, NUS, and Baidu.
@@ -158,7 +161,6 @@ A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 * [WeChat News3](https://mp.weixin.qq.com/s/DwJ8Y4ZIGhgJdowUkl5MiQ).
 
 ****
-
 
 - ICCV 2021 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/ICCV21.png" width="1000px"/>
@@ -191,6 +193,7 @@ A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 
 * [BSIG Summary News](https://mp.weixin.qq.com/s/Z5Qk4QxxRMqPWcbXupXiRQ).
 
+****
 - CVPR 2023 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/CVPR23.png" width="1000px"/>
 * We will organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
@@ -210,7 +213,7 @@ A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 
 * [CSDN News](https://blog.csdn.net/sunbaigui/article/details/128900807).
 
-
+****
 ### Citation
 - Please consult and consider citing the following papers:
 
