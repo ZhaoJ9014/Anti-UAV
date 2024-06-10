@@ -8,16 +8,16 @@
 ****
 ## License
 
-The project of anti-UAV is released under the MIT License.
+The project of AAnti-UAV is released under the MIT License.
 
 
 ****
 ## News
-:white_check_mark: **`07 June 2024`**: We have released the [jittor](https://cg.cs.tsinghua.edu.cn/jittor/) version of [Anti-UAV](https://github.com/ZhaoJ9014/Anti-UAV/tree/master/anti_uav_jittor) for domestic hardware support and inference speed up.
+:white_check_mark: **`07 June 2024`**: We have released the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) version of [Anti-UAV](https://github.com/ZhaoJ9014/Anti-UAV/tree/master/anti_uav_jittor) for domestic hardware support and inference speed up. :blush:
 
 ****
 ## Originality
-- To our best knowledge, we are the first to propose a new anti-UAV task, corresponding datasets, evaluation metrics and baseline methods.
+To our best knowledge, we are the first to propose a new Anti-UAV task, corresponding datasets, evaluation metrics and baseline methods, with both PyTorch and Jittor support.
 
 ****
 ## Contents
@@ -35,7 +35,7 @@ The project of anti-UAV is released under the MIT License.
 
 ****
 ## Task Definition
-- Anti-UAV refers to discovering, detecting, recognizing, and tracking Unmanned Aerial Vehicle (UAV) targets in the wild and simultaneously estimate the tracking states of the targets given RGB and/or Thermal Infrared (IR) videos. When the target disappears, an invisible mark of the target needs to be given. A lot of higher-level applications can be founded upon anti-UAV, such as security of important area, defense against UAV attack, and automated continuous protection from potential threat caused by UAV instrusion.
+Anti-UAV refers to discovering, detecting, recognizing, and tracking Unmanned Aerial Vehicle (UAV) targets in the wild and simultaneously estimate the tracking states of the targets given RGB and/or Thermal Infrared (IR) videos. When the target disappears, an invisible mark of the target needs to be given. A lot of higher-level applications can be founded upon anti-UAV, such as security of important area, defense against UAV attack, and automated continuous protection from potential threat caused by UAV instrusion.
 
 ****
 
@@ -93,7 +93,7 @@ Currently, we offer three public datasets for the ANTI-UAV task.
 | Anti-UAV410 | N/A          | [Password:wfds](https://pan.baidu.com/s/1PbINXhxc-722NWoO8P2AdQ)   |
 | Anti-UAV600 | [modelscope](https://modelscope.cn/datasets/ly261666/3rd_Anti-UAV/files)         | N/A         |
 
-Please note that 410 and 600 versions only contain IR videos while 300 version contains both RGB videos and IR videos. In this release, the model is capable of dealing with both RGB data and IR data, so we recommend that you use the 300 version dataset.
+* Please note that 410 and 600 versions only contain IR videos while 300 version contains both RGB videos and IR videos. In this release, the model is capable of dealing with both RGB data and IR data, so we recommend that you use the 300 version dataset.
 
 - Please refer to our [Anti-UAV v1 paper](https://ieeexplore.ieee.org/document/9615243) and [Anti-UAV v3 paper](https://arxiv.org/pdf/2306.15767.pdf) for more details ([WeChat News](https://zhaoj9014.github.io/pub/Anti-UAV.pdf)).
 
@@ -101,26 +101,23 @@ Please note that 410 and 600 versions only contain IR videos while 300 version c
 
 
 ## Evaluation Metrics
-- We define the tracking accuracy as:
+We define the tracking accuracy as:
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="1000px"/>
-For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracking box and its corresponding ground-truth box, p_t is the predicted visibility flag, it equals 1 when the predicted box is empty and 0 otherwise. The v_t is the ground-truth visibility flag of the target, the indicator function δ(v_t>0) equals 1 when v_t > 0 and 0 otherwise. The accuracy is averaged over all frames in a sequence, T indicates total frames and T^* denotes the number of frames corresponding to the presence of the target in the ground-truth.
+For frame \( t \), \( \text{IoU}_t \) is Intersection over Union (IoU) between the predicted tracking box and its corresponding ground-truth box, \( p_t \) is the predicted visibility flag, which equals 1 when the predicted box is empty and 0 otherwise. The \( v_t \) is the ground-truth visibility flag of the target, the indicator function \( \delta(v_t > 0) \) equals 1 when \( v_t > 0 \) and 0 otherwise. The accuracy is averaged over all frames in a sequence, \( T \) indicates total frames and \( T^* \) denotes the number of frames corresponding to the presence of the target in the ground-truth.
 
 ****
 ## Training and Inference
-* Training
+- Training
 
-Currently, we have some problems with training in Jittor, but you can still try to run the command
-`python ltr/run_training.py modal modal`
-in the root path of the project.
+Currently, we have some problems with training in [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/), but you can still try to run the command `python ltr/run_training.py modal modal` in the root path of the project.
 
 Or you can train the model with [PyTorch](https://pytorch.org).
 
 Also, if you have any suggestions on how to do it, feel free to open an issue!
 
-* Inference
+- Inference
 
-In the root path of the project, run the command
-`python pysot_toolkit/test.py`
+In the root path of the project, run the command `python pysot_toolkit/test.py`
 
 ****
 ## Model Zoo
@@ -133,11 +130,13 @@ Keep updating...
 ****
 ## FAQs
 
-* We will keep updating this section, so feel free to open an issue.
-
-1. Q: When I run the training command, there is an error indicating that setting an array element with a sequence, the requested array has an inhomogeneous shape.
-
+We will keep updating this section, so feel free to open an issue.
+<details>
+<summary>1. Q: When I run the training command, there is an error indicating that setting an array element with a sequence, the requested array has an inhomogeneous shape.</summary>
 A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
+</details>
+
+
 
 
 ****
