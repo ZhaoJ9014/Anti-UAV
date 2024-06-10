@@ -195,7 +195,7 @@ We have organized the ICCV 2021 Anti-UAV Workshop & Challenge, which is collabor
 ****
 - CVPR 2023 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/CVPR23.png" width="1000px"/>
-We will organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
+We have organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
 
 
 * [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
