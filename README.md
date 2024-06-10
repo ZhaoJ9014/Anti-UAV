@@ -1,5 +1,5 @@
 # Anti-Unmanned Aerial Vehicle (UAV)
-* This work was done during Jian Zhao served as an assistant professor at Institute of North Electronic Equipment, Beijing, China.
+This work was done during Jian Zhao served as an assistant professor at Institute of North Electronic Equipment, Beijing, China.
 
 |Author|Jian Zhao|
 |:---:|:---:|
@@ -8,7 +8,7 @@
 ****
 ## License
 
-The project of AAnti-UAV is released under the MIT License.
+The project of Anti-UAV is released under the MIT License.
 
 
 ****
@@ -103,7 +103,7 @@ Currently, we offer three public datasets for the ANTI-UAV task.
 ## Evaluation Metrics
 We define the tracking accuracy as:
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/3.png" width="1000px"/>
-For frame \( t \), \( \text{IoU}_t \) is Intersection over Union (IoU) between the predicted tracking box and its corresponding ground-truth box, \( p_t \) is the predicted visibility flag, which equals 1 when the predicted box is empty and 0 otherwise. The \( v_t \) is the ground-truth visibility flag of the target, the indicator function \( \delta(v_t > 0) \) equals 1 when \( v_t > 0 \) and 0 otherwise. The accuracy is averaged over all frames in a sequence, \( T \) indicates total frames and \( T^* \) denotes the number of frames corresponding to the presence of the target in the ground-truth.
+For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracking box and its corresponding ground-truth box, p_t is the predicted visibility flag, it equals 1 when the predicted box is empty and 0 otherwise. The v_t is the ground-truth visibility flag of the target, the indicator function δ(v_t>0) equals 1 when v_t > 0 and 0 otherwise. The accuracy is averaged over all frames in a sequence, T indicates total frames and T^* denotes the number of frames corresponding to the presence of the target in the ground-truth.
 
 ****
 ## Training and Inference
@@ -145,7 +145,7 @@ A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 ****
 - CVPR 2020 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/4.png" width="1000px"/>
-* We have organized the CVPR 2020 Anti-UAV Workshop & Challenge, which is collaborated by INEE, CASIA, TJU, XJTU, Pensees, Xpeng Motors, USTC, NUS, and Baidu.
+We have organized the CVPR 2020 Anti-UAV Workshop & Challenge, which is collaborated by INEE, CASIA, TJU, XJTU, Pensees, Xpeng Motors, USTC, NUS, and Baidu.
 
 
 * [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
@@ -163,7 +163,7 @@ A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 
 - ICCV 2021 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/ICCV21.png" width="1000px"/>
-* We have organized the ICCV 2021 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
+We have organized the ICCV 2021 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
 
 
 * [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
@@ -195,7 +195,7 @@ A: In AntiFusion.py, set `visible_data = np.array, dtype = object`.
 ****
 - CVPR 2023 Anti-UAV Workshop & Challenge
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/CVPR23.png" width="1000px"/>
-* We will organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
+We will organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collaborated by BIT, BUPT, HIT, BJTU, Qihoo 360, OPPO, CAS, and Baidu.
 
 
 * [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
