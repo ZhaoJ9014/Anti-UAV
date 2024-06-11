@@ -1,9 +1,4 @@
 # Anti-Unmanned Aerial Vehicle (UAV)
-This work was done during Jian Zhao served as an assistant professor at Institute of North Electronic Equipment, Beijing, China.
-
-|Author|Jian Zhao|
-|:---:|:---:|
-|Homepage|https://zhaoj9014.github.io|
 
 ****
 ## License
