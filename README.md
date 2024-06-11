@@ -1,6 +1,5 @@
 # Anti-Unmanned Aerial Vehicle (UAV)
 
-****
 ## License
 
 The project of Anti-UAV is released under the MIT License.
