@@ -1,11 +1,9 @@
 # Anti-Unmanned Aerial Vehicle (UAV)
-This work was done during Jian Zhao served as an assistant professor at Institute of North Electronic Equipment, Beijing, China.
 
-|Author|Jian Zhao|
-|:---:|:---:|
-|Homepage|https://zhaoj9014.github.io|
+## Acknowledgement
+This project is a joint development between [EVOL Lab @ TeleAI](https://zhaoj9014.github.io/) and the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) team from Tsinghua University.
 
-****
+
 ## License
 
 The project of Anti-UAV is released under the MIT License.
@@ -27,6 +25,7 @@ To our best knowledge, we are the first to propose a new Anti-UAV task, correspo
 * [Data Preparation](#Data-Preparation)
 * [Evaluation Metrics](#Evaluation-Metrics)
 * [Training and Inference](#Training-and-Inference)
+* [Notebook](#Notebooks)
 * [Model Zoo](#Model-Zoo)
 * [FAQs](#FAQs)
 * [Achievement](#Achievement)
@@ -109,7 +108,11 @@ For frame t, IoU_t is Intersection over Union (IoU) between the predicted tracki
 ## Training and Inference
 - Training
 
-Currently, we have some problems with training in [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/), but you can still try to run the command `python ltr/run_training.py modal modal` in the root path of the project.
+Currently, we have some problems with training in [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/), but you can still try to run the commands as follows:
+```bash
+cd {PROJECT_ROOT}/anti_uav_jittor
+python ltr/run_training.py modal modal
+```
 
 Or you can train the model with [PyTorch](https://pytorch.org).
 
@@ -118,6 +121,9 @@ Also, if you have any suggestions on how to do it, feel free to open an issue!
 - Inference
 
 In the root path of the project, run the command `python pysot_toolkit/test.py`
+***
+## Notebooks
+We provide a demo notebook in `anti_uav_jittor/demo.ipynb` that can help developers better understand the workflow of this demo.
 
 ****
 ## Model Zoo
