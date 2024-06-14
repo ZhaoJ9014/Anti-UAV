@@ -1,9 +1,5 @@
 # Anti-Unmanned Aerial Vehicle (UAV)
 
-## Acknowledgement
-This project is a joint development between [EVOL Lab @ TeleAI](https://zhaoj9014.github.io/) and the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) team from Tsinghua University.
-
-
 ## License
 
 The project of Anti-UAV is released under the MIT License.
