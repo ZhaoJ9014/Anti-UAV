@@ -123,7 +123,7 @@ Also, if you have any suggestions on how to do it, feel free to open an issue!
 In the root path of the project, run the command `python pysot_toolkit/test.py`
 ***
 ## Notebooks
-We provide a demo notebook in [`anti_uav_jittor/demo.ipynb`](https://github.com/ZhaoJ9014/Anti-UAV/blob/master/anti_uav_jittor/) that can help developers better understand the workflow of this demo.
+We provide a demo notebook in [`anti_uav_jittor/demo.ipynb`](https://github.com/ZhaoJ9014/Anti-UAV/blob/master/anti_uav_jittor/demo.ipynb) that can help developers better understand the workflow of this demo.
 
 ****
 ## Model Zoo
