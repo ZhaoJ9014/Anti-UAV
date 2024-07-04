@@ -8,6 +8,7 @@ The project of Anti-UAV is released under the MIT License.
 ****
 ## News
 :white_check_mark: **`07 June 2024`**: We have released the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) version of [Anti-UAV](https://github.com/ZhaoJ9014/Anti-UAV/tree/master/anti_uav_jittor) for domestic hardware support and inference speed up. :blush:
+
 :white_check_mark: **`04 July 2024`**: We have released the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) version of [Anti-UAV410](https://github.com/ZhaoJ9014/Anti-UAV/tree/master/anti_uav_jittor) for domestic hardware support and inference speed up. :blush:
 
 ****
