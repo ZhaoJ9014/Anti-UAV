@@ -1,0 +1,4 @@
+project_root
+
+suppress_rule: "redundant_brackets"
+indent_function_file_body: false

@@ -1,0 +1,85 @@
+The author of "JSONLab" toolbox is Qianqian Fang. Dr. Fang is
+currently an Associate Professor in the Department of Bioengineering,
+Northeastern University, USA.
+
+Address: Qianqian Fang
+         Department of Bioengineering
+         Northeastern University
+         ISEC 206
+         360 Huntington Ave, Boston, MA 02115, USA
+         Phone[O]: 617-373-3829
+URL: http://fanglab.org, https://neurojson.org
+Email: <q.fang at neu.edu> and <fangqq at gmail.com>
+
+
+Since 2021, this project has been partially funded by the USA National Institute of Health (NIH)
+and National Institute of Neurological Disorders and Stroke (NINDS) under grant
+U24-NS124027 (PI Qianqian Fang). It is the reference implementation of the JData
+and BJData specifications developed under the NeuroJSON Project (https://neurojson.org).
+
+
+The script loadjson.m was built upon previous works (BSD 3-clause license) by
+
+- Nedialko Krouchev: http://www.mathworks.com/matlabcentral/fileexchange/25713
+       date: 2009/11/02
+- François Glineur: http://www.mathworks.com/matlabcentral/fileexchange/23393
+       date: 2009/03/22
+- Joel Feenstra: http://www.mathworks.com/matlabcentral/fileexchange/20565
+       date: 2008/07/03
+
+The data compression/decompression utilities ({zlib,gzip,base64}{encode,decode}.m)
+were copied from (BSD 2-clause license) 
+
+- "Byte encoding utilities" by Kota Yamaguchi
+       https://www.mathworks.com/matlabcentral/fileexchange/39526-byte-encoding-utilities
+       date: 2013/01/04
+
+The loadmsgpack.m script was modified from 
+
+- parsemsgpack.m by Bastian Bechtold (BSD 3-clause license)
+  URL: https://github.com/bastibe/matlab-msgpack/blob/master/parsemsgpack.m
+
+
+This toolbox contains patches submitted by the following contributors:
+
+- Blake Johnson <bjohnso at bbn.com>
+  part of svn revision 341
+
+- Niclas Borlin <Niclas.Borlin at cs.umu.se>
+  various fixes in revision 394, including
+  - loadjson crashes for all-zero sparse matrix.
+  - loadjson crashes for empty sparse matrix.
+  - Non-zero size of 0-by-N and N-by-0 empty matrices is lost after savejson/loadjson.
+  - loadjson crashes for sparse real column vector.
+  - loadjson crashes for sparse complex column vector.
+  - Data is corrupted by savejson for sparse real row vector.
+  - savejson crashes for sparse complex row vector. 
+
+- Yul Kang <yul.kang.on at gmail.com>
+  patches for svn revision 415.
+  - savejson saves an empty cell array as [] instead of null
+  - loadjson differentiates an empty struct from an empty array
+
+- Mykhailo Bratukha <bratukha.m at gmail.com>
+  (PR#14) Bug fix: File path is wrongly inerpreted as JSON string
+
+- Insik Kim <insik92 at gmail.com>
+  (PR#12) Bug fix: Resolving bug that cell type is converted to json with transposed data
+
+- Sertan Senturk <contact at sertansenturk.com>
+  (PR#10,#11) Feature: Added matlab object saving to savejson and saveubjson
+
+- Paul Koprowski <https://github.com/pjkoprowski>
+  (Issue#29) Feature: Added support to save MATLAB tables to json.
+
+- Viktor Richter <https://github.com/vrichter>
+  (PR#32) Feature: Use integer format in JSON output
+
+- Amirsina Torfi <https://github.com/astorfi>
+  (PR#40) Feature: Reformat README to README.rst
+
+- Anton <https://github.com/dasantonym>
+  (PR#41) Feature: Added package.json to be able to intall via npm package manager
+
+- Paul Koprowski <https://github.com/pjkoprowski>
+  (PR#55) Feature: Added Encoding option to loadjson and savejson.

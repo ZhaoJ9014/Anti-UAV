@@ -1,0 +1,21 @@
+{
+  "name": "jsonlab",
+  "version": "2.9.8",
+  "description": "Compact, portable, robust JSON/binary-JSON encoder/decoder for MATLAB/Octave",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "test/run_jsonlab_test.m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangq/jsonlab.git"
+  },
+  "author": "Qianqian Fang <q.fang at neu.edu>",
+  "license": "GPL-3.0-or-later OR BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/fangq/jsonlab/issues"
+  },
+  "homepage": "https://neurojson.org/jsonlab/"
+}

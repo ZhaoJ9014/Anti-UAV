@@ -1,0 +1,175 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="3194702263" file="jsonlab.prj" location="." name="jsonlab" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>jsonlab</param.appname>
+    <param.authnamewatermark>Qianqian Fang</param.authnamewatermark>
+    <param.email>fangqq@gmail.com</param.email>
+    <param.company>Northeastern University</param.company>
+    <param.summary>Compact, portable, robust JSON/binary-JSON encoder/decoder for MATLAB/Octave</param.summary>
+    <param.description>JSONLab is a free and open-source implementation of a JSON/UBJSON/MessagePack encoder and a decoder in the native MATLAB language. It can be used to convert a MATLAB data structure (array, struct, cell, struct array, cell array, and objects) into JSON/UBJSON/MessagePack formatted strings, or to decode a JSON/UBJSON/MessagePack file into MATLAB data structure. JSONLab supports both MATLAB and [http://www.gnu.org/software/octave GNU Octave] (a free MATLAB clone).
+
+JSON ([http://www.json.org/ JavaScript Object Notation]) is a highly portable, human-readable and [http://en.wikipedia.org/wiki/JSON "fat-free"] text format to represent complex and hierarchical data. It is as powerful as [http://en.wikipedia.org/wiki/XML XML] but less verbose. JSON format is widely used for data-exchange in applications. UBJSON ([http://ubjson.org/ Universal Binary JSON]) is a binary JSON format, specifically optimized for compact file size and better performance while keeping the semantics as simple as the text-based JSON format. Using the UBJSON format allows to wrap complex binary data in a flexible and extensible structure, making it possible to process complex and large dataset without accuracy loss due to text conversions. MessagePack is another binary JSON-like data format widely used in data exchange in web/native applications. It is slightly more compact than UBJSON, but is not directly readable compared to UBJSON.
+
+We envision that both JSON and its binary counterparts will play important roles as mainstream data-exchange formats for scientific research.
+It has both the flexibility and generality as offered by other popular general-purpose file specifications, such as [http://www.hdfgroup.org/HDF5/whatishdf5.html HDF5] but with significantly reduced complexity and excellent readability.
+
+Towards this goal, we have developed the JData Specification (http://github.com/fangq/jdata) to standardize serializations of complex scientific data structures, such as N-D arrays, sparse/complex-valued arrays, trees, maps, tables and graphs using JSON/binary JSON constructs. The text and binary formatted JData files are syntactically compatible with JSON/UBJSON formats, and can be readily parsed using existing JSON and UBJSON parsers.
+
+Please note that data files produced by `saveubjson` may utilize a special "optimized header" to store N-D (N&gt;1) arrays, as defined in the JData Specification Draft 2. This feature is not supported by UBJSON Specification Draft 12. To produce UBJSON files that can be parsed by UBJSON-Draft-12 compliant parsers, you must add the option `'NestArray',1 ` in the call to `saveubjson`.</param.description>
+    <param.screenshot>${PROJECT_ROOT}/images/jsonlab-logo.png</param.screenshot>
+    <param.version>2.9.8</param.version>
+    <param.output>${PROJECT_ROOT}/jsonlab.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>d1e5cb15-4ada-479a-aafd-24b64efb8455</param.guid>
+    <param.exclude.filters>*.m~
+.git*</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/AUTHORS.txt</file>
+      <file>${PROJECT_ROOT}/ChangeLog.txt</file>
+      <file>${PROJECT_ROOT}/Contents.m</file>
+      <file>${PROJECT_ROOT}/DESCRIPTION</file>
+      <file>${PROJECT_ROOT}/INDEX</file>
+      <file>${PROJECT_ROOT}/LICENSE_BSD.txt</file>
+      <file>${PROJECT_ROOT}/LICENSE_GPLv3.txt</file>
+      <file>${PROJECT_ROOT}/README.rst</file>
+      <file>${PROJECT_ROOT}/README.txt</file>
+      <file>${PROJECT_ROOT}/base64decode.m</file>
+      <file>${PROJECT_ROOT}/base64encode.m</file>
+      <file>${PROJECT_ROOT}/decodevarname.m</file>
+      <file>${PROJECT_ROOT}/encodevarname.m</file>
+      <file>${PROJECT_ROOT}/examples</file>
+      <file>${PROJECT_ROOT}/fast_match_bracket.m</file>
+      <file>${PROJECT_ROOT}/filterjsonmmap.m</file>
+      <file>${PROJECT_ROOT}/gendocs.sh</file>
+      <file>${PROJECT_ROOT}/genlog.sh</file>
+      <file>${PROJECT_ROOT}/getfromjsonpath.m</file>
+      <file>${PROJECT_ROOT}/gzipdecode.m</file>
+      <file>${PROJECT_ROOT}/gzipencode.m</file>
+      <file>${PROJECT_ROOT}/images</file>
+      <file>${PROJECT_ROOT}/isoctavemesh.m</file>
+      <file>${PROJECT_ROOT}/jdatadecode.m</file>
+      <file>${PROJECT_ROOT}/jdataencode.m</file>
+      <file>${PROJECT_ROOT}/jload.m</file>
+      <file>${PROJECT_ROOT}/jsave.m</file>
+      <file>${PROJECT_ROOT}/jsonget.m</file>
+      <file>${PROJECT_ROOT}/jsonopt.m</file>
+      <file>${PROJECT_ROOT}/jsonset.m</file>
+      <file>${PROJECT_ROOT}/loadbj.m</file>
+      <file>${PROJECT_ROOT}/loadjd.m</file>
+      <file>${PROJECT_ROOT}/loadjson.m</file>
+      <file>${PROJECT_ROOT}/loadmsgpack.m</file>
+      <file>${PROJECT_ROOT}/loadubjson.m</file>
+      <file>${PROJECT_ROOT}/lz4decode.m</file>
+      <file>${PROJECT_ROOT}/lz4encode.m</file>
+      <file>${PROJECT_ROOT}/lz4hcdecode.m</file>
+      <file>${PROJECT_ROOT}/lz4hcencode.m</file>
+      <file>${PROJECT_ROOT}/lzipdecode.m</file>
+      <file>${PROJECT_ROOT}/lzipencode.m</file>
+      <file>${PROJECT_ROOT}/lzmadecode.m</file>
+      <file>${PROJECT_ROOT}/lzmaencode.m</file>
+      <file>${PROJECT_ROOT}/match_bracket.m</file>
+      <file>${PROJECT_ROOT}/mergestruct.m</file>
+      <file>${PROJECT_ROOT}/nestbracket2dim.m</file>
+      <file>${PROJECT_ROOT}/package.json</file>
+      <file>${PROJECT_ROOT}/savebj.m</file>
+      <file>${PROJECT_ROOT}/savejd.m</file>
+      <file>${PROJECT_ROOT}/savejson.m</file>
+      <file>${PROJECT_ROOT}/savemsgpack.m</file>
+      <file>${PROJECT_ROOT}/saveubjson.m</file>
+      <file>${PROJECT_ROOT}/test</file>
+      <file>${PROJECT_ROOT}/varargin2struct.m</file>
+      <file>${PROJECT_ROOT}/zlibdecode.m</file>
+      <file>${PROJECT_ROOT}/zlibencode.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="jsonlab.mltbx" optional="false">jsonlab.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/app/MATLAB/R2020a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>5.6.14-050614-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
