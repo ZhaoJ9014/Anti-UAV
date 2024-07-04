@@ -1,0 +1,53 @@
+os:
+  - linux
+
+language:
+  - generic
+
+dist:
+  - xenial
+
+jobs:
+  include:
+    - os: linux
+      name: Octave 5.2
+      dist: focal
+      env:
+      - BADGE=Octave_5
+      - OCTAVE=octave-cli
+    - os: linux
+      name: Octave 4.2
+      dist: xenial
+      env:
+      - BADGE=Octave_4
+      - OCTAVE=octave-cli
+    - os: linux
+      name: Octave 3.8
+      dist: trusty
+      env:
+      - BADGE=Octave_3
+      - OCTAVE=octave-cli
+#    - os: windows
+#      name: Windows
+#      env:
+#      - BADGE=Windows
+#    - os: osx
+#      name: OSX
+#      env:
+#      - BADGE=OSX
+
+before_install:
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install octave; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew install octave; fi
+  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then choco install octave.portable; fi
+
+addons:
+  apt:
+    packages:
+    - octave
+    update: true
+
+script:
+    - ${OCTAVE} --version
+    - ${OCTAVE} --eval "addpath(pwd);cd test;run_jsonlab_test"
+    - ${OCTAVE} --eval "addpath(pwd);cd examples; demo_jsonlab_basic; jsonlab_selftest"
