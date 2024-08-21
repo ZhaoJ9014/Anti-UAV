@@ -1,0 +1,2 @@
+[train: 1, 50 / 3750] FPS: 11.7 (65.5)  ,  Loss/total: 0.02063  ,  Loss/scores: 0.02063
+[train: 1, 100 / 3750] FPS: 19.5 (66.9)  ,  Loss/total: 0.01257  ,  Loss/scores: 0.01257
