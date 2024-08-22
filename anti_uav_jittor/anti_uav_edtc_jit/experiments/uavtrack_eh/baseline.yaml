@@ -1,0 +1,133 @@
+DATA:
+  SAMPLER_MODE: trident_pro
+  MAX_SAMPLE_INTERVAL:
+  - 200
+  MEAN:
+  - 0.485
+  - 0.456
+  - 0.406
+  SEARCH:
+    CENTER_JITTER: 4.5
+    FACTOR: 5.0
+    SCALE_JITTER: 0.5
+    SIZE: 320
+  STD:
+  - 0.229
+  - 0.224
+  - 0.225
+  TEMPLATE:
+    CENTER_JITTER: 0
+    FACTOR: 2.0
+    SCALE_JITTER: 0
+    SIZE: 128
+    NUMBER: 2
+  TRAIN:
+    DATASETS_NAME:
+    - GOT10K_vottrain
+    - LASOT
+    - COCO17
+    - TRACKINGNET
+    - AntiUAV_train
+    DATASETS_RATIO:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    SAMPLE_PER_EPOCH: 60000
+  VAL:
+    DATASETS_NAME:
+    - AntiUAV_val
+    DATASETS_RATIO:
+    - 1
+    SAMPLE_PER_EPOCH: 10000
+MODEL:
+  VIT_TYPE: 'cvt_21'
+  BACKBONE:
+    PRETRAINED: true
+    PRETRAINED_PATH: ''
+    INIT: 'trunc_norm'
+    NUM_STAGES: 3
+    PATCH_SIZE: [ 7, 3, 3 ]
+    PATCH_STRIDE: [ 4, 2, 2 ]
+    PATCH_PADDING: [ 2, 1, 1 ]
+    DIM_EMBED: [ 64, 192, 384 ]
+    NUM_HEADS: [ 1, 3, 6 ]
+    DEPTH: [ 1, 4, 16 ]
+    MLP_RATIO: [ 4.0, 4.0, 4.0 ]
+    ATTN_DROP_RATE: [ 0.0, 0.0, 0.0 ]
+    DROP_RATE: [ 0.0, 0.0, 0.0 ]
+    DROP_PATH_RATE: [ 0.0, 0.0, 0.1 ]
+    QKV_BIAS: [ True, True, True ]
+    CLS_TOKEN: [ False, False, False ]
+    POS_EMBED: [ False, False, False ]
+    QKV_PROJ_METHOD: [ 'dw_bn', 'dw_bn', 'dw_bn' ]
+    KERNEL_QKV: [ 3, 3, 3 ]
+    PADDING_KV: [ 1, 1, 1 ]
+    STRIDE_KV: [ 2, 2, 2 ]
+    PADDING_Q: [ 1, 1, 1 ]
+    STRIDE_Q: [ 1, 1, 1 ]
+    FREEZE_BN: true
+  HEAD_FREEZE_BN: True
+  PRETRAINED_STAGE1: True
+  HEAD_TYPE: CORNER
+  HIDDEN_DIM: 384
+  NLAYER_HEAD: 3
+  NUM_OBJECT_QUERIES: 1
+  POSITION_EMBEDDING: sine
+  PREDICT_MASK: false
+TRAIN:
+  BACKBONE_MULTIPLIER: 0.1
+  BATCH_SIZE: 32
+  DEEP_SUPERVISION: false
+  EPOCH: 40
+  TRAIN_SCORE: true
+  IOU_WEIGHT: 2.0
+  GRAD_CLIP_NORM: 0.1
+  L1_WEIGHT: 5.0
+  USE_UNCERTAINTY: True
+  SCORE_WEIGHT: 1.0
+  LR: 0.0001
+  LR_DROP_EPOCH: 30
+  NUM_WORKER: 8
+  OPTIMIZER: ADAMW
+  PRINT_INTERVAL: 50
+  SCHEDULER:
+    TYPE: step
+    DECAY_RATE: 0.1
+  VAL_EPOCH_INTERVAL: 5
+  WEIGHT_DECAY: 0.0001
+TEST:
+  EPOCH: 40
+  SEARCH_FACTOR: 5.0
+  SEARCH_SIZE: 320
+  TEMPLATE_FACTOR: 2.0
+  TEMPLATE_SIZE: 128
+  UPDATE_INTERVALS:
+    LASOT: [200]
+    UAV: [200]
+    OTB: [6]
+    GOT10K_TEST: [10]
+    TRACKINGNET: [25]
+    VOT20: [10]
+  ONLINE_SIZES:
+    LASOT: [2]
+    UAV: [1]
+    OTB: [3]
+    GOT10K_TEST: [2]
+    TRACKINGNET: [1]
+    VOT20: [5]
+
+YOLO:
+  IMGSZ: [640, 640]
+  CONF_THRES: 0.6
+  IOU_THRES: 0.45 #0.45
+  MAX_DET: 1000  # maximum detections per image
+  AUGMENT: false  # augmented inference
+  CLASSES: null  # filter by class: --class 0, or --class 0 2 3
+  AGNOSTIC_NMS: false  # class-agnostic NMS
+  HIDE_LABELS: false  # hide labels
+  HIDE_CONF: false  # hide confidences
+  WEIGHTS: '/path/to/EDTC/yolov5/runs/train/exp/weights/best.pt'  # model.pt path(s)
+  DATA: '/path/to/EDTC/yolov5/data/antiuav.yaml' # dataset.yaml path
+  DEVICE: '0'  # cuda device, i.e. 0 or 0,1,2,3 or cpu
