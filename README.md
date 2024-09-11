@@ -15,7 +15,7 @@ The project of Anti-UAV is released under the MIT License.
 
 ****
 ## Originality
-To our best knowledge, we are the first to propose a new Anti-UAV task, corresponding datasets, evaluation metrics and baseline methods, with both PyTorch and Jittor support ([Jittor Official News](https://mp.weixin.qq.com/s/SxeWERbJVcnBCCFmpKsAxQ)).
+To our best knowledge, we are the first to propose a new Anti-UAV task, corresponding datasets, evaluation metrics and baseline methods, with both PyTorch and Jittor support ([Jittor Official News](https://mp.weixin.qq.com/s/SxeWERbJVcnBCCFmpKsAxQ), [BSIG Official News](https://mp.weixin.qq.com/s/HbSgLK5Kw89cOMjsQZSjXA)).
 
 ****
 ## Contents
