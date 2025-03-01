@@ -62,7 +62,7 @@ Note:
 ****
 ## Data Preparation
 
-Currently, we offer three public datasets for the ANTI-UAV task.
+Currently, we offer three public datasets for the Anti-UAV task.
 
 <img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/1.gif" width="1000px"/>
 <div align="center">
