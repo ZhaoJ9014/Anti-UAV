@@ -222,6 +222,21 @@ We have organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collabor
 ### Citation
 - Please consult and consider citing the following papers:
 
+      @inproceedings{wang2024plrut,
+      title={PLRUT: Pseudo Label and Re-detection Boosted Unsupervised Tracking of Unmanned Aerial Vehicle Objects},
+      author={Wang, Jun and Dai, Huadong and Zhang, Bo and Qin, Shan and Zhao, Jian and Zhang, Zhihao},
+      booktitle={PRCV 2024},
+      year={2024}
+      }
+
+
+      @inproceedings{xia2023unified,
+      title={Unified single-stage transformer network for efficient RGB-T tracking},
+      author={Xia, Jianqiang and Shi, DianXi and Song, Ke and Song, Linna and Wang, XiaoLei and Jin, Songchang and Zhou, Li and Cheng, Yu and Jin, Lei and Zhu, Zheng and others},
+      booktitle={IJCAI 2024},
+      year={2024}
+      }
+
 
       @article{zhang2023review,
       title={Review and Analysis of RGBT Single Object Tracking Methods: A Fusion Perspective},
