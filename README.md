@@ -219,6 +219,14 @@ We have organized the CVPR 2023 Anti-UAV Workshop & Challenge, which is collabor
 * [CSDN News](https://blog.csdn.net/sunbaigui/article/details/128900807).
 
 ****
+- CVPR 2025 Anti-UAV Workshop & Challenge
+<img src="https://github.com/ZhaoJ9014/Anti-UAV/blob/master/Fig/CVPR25.png" width="1000px"/>
+We are now organizing the CVPR 2025 Anti-UAV Workshop & Challenge, which is collaborated by BIT, Oulu, BUPT, NUDT, WHU, HKU, PolyU, UVA, NUS, UW, Ant Group, etc.
+
+
+* [Result Submission & Leaderboard](https://anti-uav.github.io/submission/).  
+
+****
 ### Citation
 - Please consult and consider citing the following papers:
 
